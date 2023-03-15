@@ -4,4 +4,5 @@ Software to compute the famous irrational number pi.
 Included are two simple Java classes:  PiLeibniz.java and PiNilakantha.java.  PiLeibniz.java uses the
 Leibniz series to compute pi and PiNilakantha.java use the Nilakantha series.
 
-These classes were written as an exercize on Pi Day, 2023.
+These classes were written as an exercise on Pi Day, 2023.  PiNilakantha correctly computes pi to
+27 digits and converges to the actual value of Pi much faster than PiLeibniz.
