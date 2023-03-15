@@ -1,0 +1,7 @@
+# pi
+Software to compute the famous irrational number pi.
+
+Included are two simple Java classes:  PiLeibniz.java and PiNilakantha.java.  PiLeibniz.java uses the
+Leibniz series to compute pi and PiNilakantha.java use the Nilakantha series.
+
+These classes were written as an exercize on Pi Day, 2023.
