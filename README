@@ -7,3 +7,7 @@ Leibniz series to compute pi and PiNilakantha.java use the Nilakantha series.
 These classes were written as an exercise on Pi Day, 2023.  PiNilakantha correctly computes pi to
 27 digits and converges to the actual value of Pi much faster than PiLeibniz.  After the same number
 of iterations, the Leibniz method is only accurate to 8 digits.
+
+Also included are two classes for computing Pi using the Nilakantha Series but using multiple threads.
+This allows for more speed with the same accuracy or more accuracy with about the same speed.  As
+written, it performs 10000000000 iterations of the series in 10 threads.
