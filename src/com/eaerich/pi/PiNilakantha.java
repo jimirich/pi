@@ -37,9 +37,9 @@ public class PiNilakantha {
 			BigDecimal d = d1.multiply(d2).multiply(d3);
 
 			if (i % 2 == 0) {
-				sum = sum.add(n.divide(d, 128, RoundingMode.HALF_UP));
+				sum = sum.add(n.divide(d, 64, RoundingMode.HALF_UP));
 			} else {
-				sum = sum.subtract(n.divide(d, 128, RoundingMode.HALF_UP));
+				sum = sum.subtract(n.divide(d, 64, RoundingMode.HALF_UP));
 			}
 		}
 
