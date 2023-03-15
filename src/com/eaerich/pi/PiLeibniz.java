@@ -29,11 +29,11 @@ public class PiLeibniz {
     BigDecimal d = BigDecimal.ONE;
     final BigDecimal n = new BigDecimal(4).setScale(0);
 
-    for (long i = 0L; i < 10000000000L; i++) {
+    for (long i = 0L; i < 1000000000L; i++) {
       if (i % 2 == 0) {
-        pi = pi.add(n.divide(d, 128, RoundingMode.HALF_UP));
+        pi = pi.add(n.divide(d, 64, RoundingMode.HALF_UP));
       } else {
-        pi = pi.subtract(n.divide(d, 128, RoundingMode.HALF_UP));
+        pi = pi.subtract(n.divide(d, 64, RoundingMode.HALF_UP));
       }
 
       d = d.add(BigDecimal.ONE).add(BigDecimal.ONE);
